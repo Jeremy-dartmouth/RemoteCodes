@@ -2,7 +2,7 @@
 
 http.createServer(function (request, response) {
 
-    // HTTP 状态值: 200 : OK
+    // HTTP 状态值: 200 : OK 2222222222222222
     // 内容类型: text/plain
     response.writeHead(200, {'Content-Type': 'text/plain'});
 
