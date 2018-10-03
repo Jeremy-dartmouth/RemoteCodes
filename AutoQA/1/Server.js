@@ -1,8 +1,7 @@
-var http = require('http');//第一行请求（require）Node.js 自带的 http 模块，并且把它赋值给 http 变量。
+﻿var http = require('http');//第一行请求（require）Node.js 自带的 http 模块，并且把它赋值给 http 变量。
 
 http.createServer(function (request, response) {
 
-    // 发送 HTTP 头部 
     // HTTP 状态值: 200 : OK
     // 内容类型: text/plain
     response.writeHead(200, {'Content-Type': 'text/plain'});
